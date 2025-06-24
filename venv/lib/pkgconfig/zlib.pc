@@ -1,0 +1,13 @@
+prefix=/Users/vaidehipawar/Desktop/GenAI_AWS/venv
+exec_prefix=/Users/vaidehipawar/Desktop/GenAI_AWS/venv
+libdir=/Users/vaidehipawar/Desktop/GenAI_AWS/venv/lib
+sharedlibdir=/Users/vaidehipawar/Desktop/GenAI_AWS/venv/lib
+includedir=/Users/vaidehipawar/Desktop/GenAI_AWS/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
